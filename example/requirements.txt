@@ -1,0 +1,5 @@
+altair==4.2
+vega_datasets
+Flask>=2
+simple-websocket>=0.5
+h2o-nitro-altair>=0.1
