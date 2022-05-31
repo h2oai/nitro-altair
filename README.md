@@ -1,7 +1,7 @@
 # Altair plugin for H2O Nitro
 
 This plugin lets you use [Altair](https://altair-viz.github.io/index.html) visualizations in
-[Nitro](https://nitro.h2o.ai) apps.
+[Nitro](https://github.com/h2oai/nitro) apps.
 
 ## Demo
 
