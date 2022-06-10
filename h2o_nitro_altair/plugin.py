@@ -83,5 +83,6 @@ def altair_box(chart: Chart, options: Optional[dict] = None) -> Box:
         data=dict(
             spec=chart.to_json(),
             opt=json.dumps(_default_embed_opts if options is None else {**_default_embed_opts, **options}),
-        )
+        ),
+        ignore=True,
     )

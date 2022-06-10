@@ -14,5 +14,5 @@
 
 from .plugin import altair_plugin, altair_box
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
