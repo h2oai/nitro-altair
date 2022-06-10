@@ -1,3 +1,29 @@
+# Run this example easily with "nitro run URL".
+# Get the nitro CLI: https://nitro.h2o.ai/cli/
+#
+# Like Nitro? Please star us on Github: https://github.com/h2oai/nitro
+#
+# ===
+# About: How to use Altair in Nitro apps
+# Author: Prithvi Prabhu <prithvi.prabhu@gmail.com>
+# License: Apache-2.0
+# Source: https://github.com/h2oai/nitro-matplotlib/examples
+# Keywords: [visualization]
+#
+# Setup:
+# FILE requirements.txt EOF
+# altair
+# vega_datasets
+# Flask>=2
+# simple-websocket>=0.5
+# h2o-nitro-altair
+# EOF
+# RUN python -m pip install -r requirements.txt
+# ENV FLASK_APP altair_basic.py
+# ENV FLASK_ENV development
+# START python -m flask run
+# ===
+
 import altair as alt
 from altair import datum
 from vega_datasets import data
